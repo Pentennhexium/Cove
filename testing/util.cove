@@ -1,0 +1,18 @@
+class parsable Num {  // 32 Bit Signed Int
+    private raws<32> data;
+
+    public void _equals(List<Char> arg) {
+        data = Num._parse(arg);
+    }
+
+    // Takes the raw code characters and parses them into data
+    // Necessary for any class which isn't initialized with a constructor
+    private static Num _parse(List<Char>) {
+
+    }
+
+    // $Num means any class that can be converted to Num, which are automatically converted to Num objects
+    public static Num _add($Num num1, $Num num2) {
+        return num1.data.binaryAdd(num2.data);
+    }
+}

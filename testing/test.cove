@@ -1,0 +1,13 @@
+import "util.cove";
+
+Num add(Num num1, Num num2) {
+    return num1 + num2;
+}
+
+Num five;
+Num four = 4;
+five = 5;
+
+print(five);
+print(four);
+print(add(five, four));

@@ -1,0 +1,3 @@
+Num five;
+Num four = 4;
+four = 6;
